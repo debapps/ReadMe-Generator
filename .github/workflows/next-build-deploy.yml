@@ -11,7 +11,7 @@ on:
 
 # Add Environment Variables.
 env:
-  assetURL: /ReadME-Generator
+  assetURL: https://debapps.github.io/ReadMe-Generator/
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
