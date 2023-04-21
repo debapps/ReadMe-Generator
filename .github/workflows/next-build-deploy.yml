@@ -14,7 +14,7 @@ on:
 
 # Add Environment Variables.
 env:
-  assetURL: /ReadMe-Generator
+  NEXT_PUBLIC_ASSET_URL: /ReadMe-Generator
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
