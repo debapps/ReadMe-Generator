@@ -4,10 +4,10 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <footer className="w-full font-poppins p-5 text-center text-slate-800 bg-green-300">
+    <footer className="w-full font-poppins p-4 text-center text-slate-800 bg-green-300">
       <article>
         <p>Find me on social media</p>
-        <div className="flex flex-row justify-center items-center space-x-1 my-2 text-4xl bg-black max-w-fit p-2 mx-auto rounded-lg">
+        <section className="flex flex-row justify-center items-center space-x-1 my-2 text-4xl bg-black max-w-fit p-2 mx-auto rounded-lg">
           <a
             href="https://www.facebook.com/debadityabhar/"
             target="_blank"
@@ -40,7 +40,7 @@ export default function Footer() {
               <AiFillLinkedin />
             </span>
           </a>
-        </div>
+        </section>
         <p className="text-sm font-extralight">
           Made with &#128150; Debaditya Bhar
         </p>

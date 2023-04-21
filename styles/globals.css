@@ -6,7 +6,7 @@
 
 @layer base {
   .preview {
-    @apply text-base md:text-lg font-poppins font-medium tracking-wide;
+    @apply text-base md:text-lg font-poppins font-medium tracking-wide text-slate-800;
   }
 
   .preview h1 {
@@ -54,7 +54,7 @@
   }
 
   .preview pre {
-    @apply bg-emerald-950 text-orange-200 block mx-auto w-full lg:w-3/4 p-5 m-5 rounded-xl;
+    @apply bg-slate-800 text-orange-200 block mx-auto w-full lg:w-3/4 p-5 m-5 rounded-xl;
   }
 
   .preview pre>code {
@@ -62,7 +62,7 @@
   }
 
   .preview code {
-    @apply bg-amber-950 text-emerald-200 p-2 rounded-lg text-xs md:text-sm font-medium font-mono break-words;
+    @apply bg-slate-800 text-emerald-200 p-2 rounded-lg text-xs md:text-sm font-medium font-mono break-words;
   }
 
   .preview ul {
@@ -71,5 +71,9 @@
 
   .preview ol {
     @apply list-decimal py-1 pl-10 m-2;
+  }
+
+  .preview hr {
+    @apply border-x-0 border-t-2 border-b-0 border-dashed border-slate-800;
   }
 }
