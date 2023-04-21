@@ -13,6 +13,7 @@ export default function Home() {
         <link rel="apple-touch-icon" sizes="180x180" href={`${assetPrefix}/favicon/apple-touch-icon.png`} />
         <link rel="icon" type="image/png" sizes="32x32" href={`${assetPrefix}/favicon/favicon-32x32.png`} />
         <link rel="icon" type="image/png" sizes="16x16" href={`${assetPrefix}/favicon/favicon-16x16.png`} />
+        <link rel="shortcut icon" href={`${assetPrefix}/favicon/favicon.ico`} />
         <link rel="manifest" href={`${assetPrefix}/favicon/site.webmanifest`}></link>
       </Head>
       <Heading />
