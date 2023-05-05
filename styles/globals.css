@@ -1,79 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Righteous&family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Righteous&family=Russo+One&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  .preview {
-    @apply text-base md:text-lg font-poppins font-medium tracking-wide text-slate-800;
-  }
+    .preview {
+        @apply text-xs md:text-sm font-poppins font-medium tracking-wide text-slate-800;
+    }
 
-  .preview h1 {
-    @apply text-3xl md:text-5xl font-righteous font-extrabold py-10 leading-10 tracking-widest;
-  }
+    .preview h1 {
+        @apply text-xl md:text-3xl font-righteous font-extrabold pb-5 pt-2 leading-10 tracking-widest;
+    }
 
-  .preview h2 {
-    @apply text-xl md:text-3xl font-righteous font-bold py-10 leading-10 tracking-wider;
-  }
+    .preview h2 {
+        @apply text-lg md:text-xl font-righteous font-bold pb-5 pt-2 leading-10 tracking-wider;
+    }
 
-  .preview h3 {
-    @apply text-lg md:text-xl font-righteous font-bold py-10 leading-10 tracking-wide;
-  }
+    .preview h3 {
+        @apply text-base md:text-lg font-righteous font-bold pb-5 pt-2 leading-10 tracking-wide;
+    }
 
-  .preview p {
-    @apply py-2 leading-8 tracking-normal;
-  }
+    .preview p {
+        @apply py-2 leading-8 tracking-normal;
+    }
 
-  .preview p>img {
-    @apply w-2/3 rounded-lg block pt-10 pb-7 mx-auto;
-  }
+    .preview p > img {
+        @apply w-2/3 rounded-lg block pb-5 pt-2 mx-auto;
+    }
 
-  .preview p>img+em {
-    @apply text-base italic block w-full text-center pb-10;
-  }
+    .preview p > img + em {
+        @apply text-xs italic block w-full text-center pb-10;
+    }
 
-  .preview blockquote {
-    @apply block p-5 mx-10 my-5 bg-emerald-50 border-l-8 border-l-emerald-800 text-lg md:text-xl;
-  }
+    .preview blockquote {
+        @apply block p-5 mx-10 my-5 bg-emerald-50 border-l-8 border-l-emerald-800 text-sm md:text-base;
+    }
 
-  .preview strong {
-    @apply font-bold;
-  }
+    .preview strong {
+        @apply font-bold;
+    }
 
-  .preview em {
-    @apply italic
-  }
+    .preview em {
+        @apply italic;
+    }
 
-  .preview a {
-    @apply text-emerald-600;
-  }
+    .preview a {
+        @apply text-emerald-600;
+    }
 
-  .preview a:hover {
-    @apply text-emerald-200;
-  }
+    .preview a:hover {
+        @apply text-emerald-200;
+    }
 
-  .preview pre {
-    @apply bg-slate-800 text-orange-200 block mx-auto w-full lg:w-3/4 p-5 m-5 rounded-xl;
-  }
+    .preview pre {
+        @apply bg-slate-800 text-orange-200 block mx-auto w-full lg:w-3/4 p-5 m-5 rounded-xl;
+    }
 
-  .preview pre>code {
-    @apply text-xs md:text-lg font-medium font-mono break-words;
-  }
+    .preview pre > code {
+        @apply text-xs md:text-sm font-medium font-mono break-words;
+    }
 
-  .preview code {
-    @apply bg-slate-800 text-emerald-200 p-2 rounded-lg text-xs md:text-sm font-medium font-mono break-words;
-  }
+    .preview code {
+        @apply bg-slate-800 text-emerald-200 p-2 rounded-lg text-xs md:text-sm font-medium font-mono break-words;
+    }
 
-  .preview ul {
-    @apply list-disc py-1 pl-10 m-2;
-  }
+    .preview ul {
+        @apply list-disc py-1 pl-10 m-2;
+    }
 
-  .preview ol {
-    @apply list-decimal py-1 pl-10 m-2;
-  }
+    .preview ol {
+        @apply list-decimal py-1 pl-10 m-2;
+    }
 
-  .preview hr {
-    @apply border-x-0 border-t-2 border-b-0 border-dashed border-slate-800;
-  }
+    .preview hr {
+        @apply border-x-0 border-t-2 border-b-0 border-dashed border-slate-800;
+    }
 }
